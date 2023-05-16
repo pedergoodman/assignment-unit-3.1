@@ -102,7 +102,8 @@ console.log('New list order is now:', favoriteFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
-
+convertToString = favoriteFoods.join(' and ')
+console.log('My favorite foods are:', convertToString);
 
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
