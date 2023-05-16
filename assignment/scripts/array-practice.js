@@ -89,7 +89,7 @@ console.log('--Replace second food in array');
 console.log('Second item is currently:', favoriteFoods[1]);
 favoriteFoods[1] = 'greek yogurt';
 console.log('Second item is now:', favoriteFoods[1]);
-console.log('The array is now:', favoriteFoods)
+console.log('The array is now:', favoriteFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
@@ -102,7 +102,7 @@ console.log('New list order is now:', favoriteFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
-convertToString = favoriteFoods.join(' and ')
+convertToString = favoriteFoods.join(' and ');
 console.log('My favorite foods are:', convertToString);
 
 
