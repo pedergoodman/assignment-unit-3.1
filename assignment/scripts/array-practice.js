@@ -8,7 +8,7 @@ let animalArray = ['fish', 'cat', 'bird', 'dog'];
 console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let favoriteFoods = ['Oyster mushrooms', 'clif bars', 'yogurt', 'blue berries', 'avocado toast'];
+let favoriteFoods = ['oyster mushrooms', 'clif bars', 'yogurt', 'blue berries', 'avocado toast'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
@@ -28,7 +28,7 @@ console.log('I definitely have more than', favoriteFoods.length, 'favorite foods
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
 console.log('Second animal is', animalArray[1]);
@@ -49,7 +49,7 @@ animalArray.push('penguin');
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
-favoriteFoods.push('Beyond Burgers')
+favoriteFoods.push('beyond burger');
 console.log('Added one more food item to end', favoriteFoods);
 
 // Example: Remove the last animal by using Array.pop
@@ -84,16 +84,28 @@ console.log('My fav food list is now:', favoriteFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+console.log('Replace second food in array');
+console.log('Second item is currently:', favoriteFoods[1]);
+favoriteFoods[1] = 'greek yogurt';
+console.log('Second item is now:', favoriteFoods[1]);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+favoriteFoods.sort();
+favoriteFoods.reverse();
+console.log('New list order is now:', favoriteFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
+
+
+
+
 
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
