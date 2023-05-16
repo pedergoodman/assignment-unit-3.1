@@ -109,3 +109,17 @@ console.log('New list order is now:', favoriteFoods);
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
 
+// combined with spread operator
+let combinedFoodsAndAnimals = [...animalArray, ...favoriteFoods];
+
+console.log('New array length is:', combinedFoodsAndAnimals.length);
+console.log(combinedFoodsAndAnimals);
+
+// combine with concat()
+let mergedResult = [].concat(animalArray, favoriteFoods);
+console.log(mergedResult);
+
+// combined with .push()
+let thirdMergedResult = [];
+thirdMergedResult.push(...animalArray, ...favoriteFoods);
+console.log(thirdMergedResult);
